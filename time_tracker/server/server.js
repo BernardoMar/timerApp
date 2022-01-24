@@ -9,7 +9,7 @@ const routes = require('./api/routes/trackerRoutes');
 mongoose.Promise = global.Promise;
 
 mongoose.connect(
-  `mongodb+srv://tracker:${process.env.MONGOPW}@cluster0.ucbiw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`,
+  `mongodb+srv://tracker:tracker123@cluster0.ucbiw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`,
   {useNewUrlParser: true}
 );
 
