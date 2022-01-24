@@ -36,7 +36,7 @@ _handleSelect(task) {
   };
 
 
-  axios.put(`http://localhost:3000/tasks/${task._id}`, taskObject)
+  axios.put(`https://quiet-brook-52675.herokuapp.com/tasks/${task._id}`, taskObject)
     .then((res) => {
       console.log('not an error', res.data);
     }).catch((error) => {

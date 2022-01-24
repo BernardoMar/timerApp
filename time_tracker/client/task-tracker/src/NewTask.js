@@ -29,7 +29,7 @@ class NewTask extends Component {
       "startTime": `${startTime}`
     };
 
-    axios.post('http://localhost:3000/tasks', taskObject)
+    axios.post('https://quiet-brook-52675.herokuapp.com/tasks', taskObject)
       .then((res) => {
         console.log(res.data);
       }).catch((error) => {

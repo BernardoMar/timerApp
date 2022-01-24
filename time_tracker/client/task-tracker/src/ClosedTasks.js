@@ -29,7 +29,7 @@ class ClosedTasks extends Component {
 
   _handleDelete (task) {
     console.log('I will delete this', task);
-    axios.delete(`http://localhost:3000/tasks/${task._id}`, task._id)
+    axios.delete(`https://quiet-brook-52675.herokuapp.com/tasks/${task._id}`, task._id)
       .then((res) => {
         console.log('not an error', res.data);
       }).catch((error) => {
