@@ -1,6 +1,6 @@
 # 'Task Tracker App'
 
-##Introduction.
+## Introduction.
 
 This task tracker app is build on the MERN stack.   
 
@@ -32,7 +32,7 @@ Finished.
 
 Check the app clicking [here](https://afternoon-bayou-41456.herokuapp.com/).
 
-Link to the back [here](https://quiet-brook-52675.herokuapp.com/tasks).
+Link to the backend [here](https://quiet-brook-52675.herokuapp.com/tasks).
 ## Contact:
 
 bernardomartin92@outlook.com
