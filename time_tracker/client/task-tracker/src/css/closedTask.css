@@ -1,0 +1,51 @@
+.closedTaskContainer {
+
+  margin-left: 120px;
+}
+
+.headers {
+  font-weight: 900;
+  font-size: 18px;
+  background-color: #FBBE28;
+  text-align: center;
+  color: white;
+}
+
+.rows {
+  color: black;
+  font-weight: 350;
+  background-color: rgba(239, 247, 246, 0.6);
+}
+
+
+.name-rows {
+  font-weight: 500;
+  width: 200px;
+}
+
+
+.closedTable {
+  overflow-y: auto;
+  height: 450px;
+  margin-bottom: 5px;
+}
+
+.closedTable thead th {
+  position: sticky;
+  top: 0;
+
+}
+
+.c-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  background-color: #FBBE28;
+}
+
+.c-header {
+  display: flex;
+  justify-content: space-between;
+}
