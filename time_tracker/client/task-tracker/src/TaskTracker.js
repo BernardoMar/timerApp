@@ -5,7 +5,7 @@ import ClosedTasks from './ClosedTasks.js';
 import './css/taskTracker.css';
 import axios from 'axios';
 
-const SERVER_URL = 'http://localhost:3000/tasks';
+const SERVER_URL = 'https://quiet-brook-52675.herokuapp.com/tasks';
 
 class TaskTracker extends Component {
   constructor() {
