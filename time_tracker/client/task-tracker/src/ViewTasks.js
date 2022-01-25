@@ -48,7 +48,7 @@ _handleSelect(task) {
   render() {
     return (
       <div className='open-container'>
-        <h2> Outstanding Tasks </h2>
+        <h2 className="open-header"> Outstanding Tasks </h2>
         <Table striped bordered hover className="openTable">
           <thead className="headers">
             <tr>
@@ -66,7 +66,7 @@ _handleSelect(task) {
               .map((task) =>
 
               <tr>
-                <td className="name-rows">{task.taskName}</td>
+                <td className="Open-name-rows">{task.taskName}</td>
 
                 <td className="btn-row">
                   <button className="btn-lime" type="submit"

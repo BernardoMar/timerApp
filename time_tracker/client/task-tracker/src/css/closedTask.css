@@ -1,11 +1,11 @@
 .closedTaskContainer {
+margin: 45px auto;
 
-  margin-left: 120px;
 }
 
 .headers {
   font-weight: 900;
-  font-size: 18px;
+  font-size: 15px;
   background-color: #FBBE28;
   text-align: center;
   color: white;
@@ -20,7 +20,7 @@
 
 .name-rows {
   font-weight: 500;
-  width: 200px;
+  width: 130px;
 }
 
 
@@ -28,6 +28,7 @@
   overflow-y: auto;
   height: 450px;
   margin-bottom: 5px;
+  font-size: 12px;
 }
 
 .closedTable thead th {

@@ -2,17 +2,27 @@
   background-color: rgba(247, 214, 224, 0.5);
   color: black;
   font-weight: 350;
+  text-align: center;
 }
 
 
 
 .btn-row {
   text-align: center;
-  
+
 }
 
 .open-container {
-  width: 360px;
   margin: 0 auto;
+  width: 90%;
+  font-size: 12px;
+}
+
+.Open-name-rows {
   width: 50%;
+  font-weight: 500;
+}
+
+.open-header {
+  text-align: center;
 }

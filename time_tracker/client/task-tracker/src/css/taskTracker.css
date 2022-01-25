@@ -8,22 +8,13 @@ body {
 .container {
   max-width: 95%;
   font-family: 'Montserrat', sans-serif;
+
 }
 
-@media(min-width: 1056px) {
-  .tablesContainer {
-    margin: 0 auto;
-    display: flex;
-    align-items: flex-start;
-  }
-  .open-container {
-    width: 360px;
-    margin: none;
-  }
-  .openTable {
-    width: 360px;
-  }
+h2 {
+  font-size: 20px;
 }
+
 
 button{
   width : 100%;
@@ -39,13 +30,13 @@ button{
 .btn-lime{
   background-color : #00CC99 ;
   color: white;
-  width: 120px;
+  width: 90%;
   margin: 5px auto;
   text-shadow : 0px 1px 0px #2DB470;
   font-weight: 900;
 }
 .btn-red{
-  
+
   background-color : #FFEE88;
   width: 40px;
   height: 40px;
@@ -57,10 +48,10 @@ button{
 }
 .btn-blue{
   background-color : #009FE2;
-  width: 160px;
+  width: 100px;
   color: white;
   font-weight: 1000;
-
+  font-size: 12px;
 }
 
 
@@ -78,4 +69,89 @@ button:hover{
 .btn-blue:hover{
    border : 1px solid  #009FE2;
   color : #009FE2;
+}
+
+@media(min-width: 400px) {
+  h2 {
+    font-size: 28px;
+  }
+  .btn-blue {
+    width: 120px;
+    font-size: 15px;
+  }
+  .btn-lime {
+    font-size: 15px;
+    width: 100px;
+  }
+  .open-container {
+    font-size: 14px;
+  }
+}
+
+@media(min-width: 600px) {
+  .open-container {
+    width: 70%;
+  }
+
+}
+@media(min-width: 710px) {
+  .open-container {
+    width: 40%;
+  }
+
+}
+
+
+@media(min-width: 967px) {
+  .tablesContainer {
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .open-container {
+    margin: none;
+  }
+  .openTable {
+    width: 300px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  .open-header {
+    text-align: left;
+  }
+  .closedTaskContainer {
+    margin: 0px auto;
+    width: 70%;
+
+  }
+}
+
+@media(min-width: 1200px) {
+  .name-rows {
+    width: 160px;
+    font-size: 15px;
+  }
+  .closedTaskContainer {
+    width: 95%;
+    }
+
+
+}
+@media(min-width: 1400px) {
+  .name-rows {
+    width: 160px;
+    font-size: 15px;
+  }
+  .closedTaskContainer {
+    width: 100%;
+    }
+  .headers {
+    font-size: 18px;
+  }
+  .closedTable {
+    font-size: 13px;
+  }
+
 }
