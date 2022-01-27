@@ -23,7 +23,7 @@ class TaskTracker extends Component {
       axios(SERVER_URL).then((response) => {
 
         this.setState({tasks: response.data});
-        setTimeout(fetchTasks, 1000);
+        setTimeout(fetchTasks, 3000);
       });
     };
 
